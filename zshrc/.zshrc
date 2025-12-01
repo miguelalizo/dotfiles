@@ -14,7 +14,7 @@ source <(fzf --zsh)
 
 
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$HOME/.local/share/omarchy/bin:$PATH"
-eval "$(~/.local/bin/mise activate zsh)"
+eval "$(/usr/bin/mise activate zsh)"
  
 
 # enable vim motions in zsh
