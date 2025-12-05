@@ -13,10 +13,6 @@ setopt inc_append_history
 source <(fzf --zsh)
 
 
-export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$HOME/.local/share/omarchy/bin:$PATH"
-eval "$(/usr/bin/mise activate zsh)"
- 
-
 # enable vim motions in zsh
 bindkey -v
 # enter vim when pressing v in zsh vi mode
